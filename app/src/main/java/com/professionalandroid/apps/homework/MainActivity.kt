@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val fragmentwo = fragment2()
         val fragmenthree = fragment3()
 
-        val adapt = fragmentAdapter(supportFragmentManager)
+        val adapt = fragmentAdapter(supportFragmentManager)//fragmentAdapter를 메인 엑티비티에 없어도 사용해서 쓸수있다.
 
         adapt.addItems(fragmentone)
         adapt.addItems(fragmentwo)
